@@ -25,3 +25,9 @@ env/
 *.egg-info/
 dist/
 build/
+
+# Data files
+data/
+*.csv
+*.xlsx
+*.parquet
