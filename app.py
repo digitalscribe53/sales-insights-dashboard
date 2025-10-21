@@ -49,12 +49,6 @@ st.set_page_config(page_title="Sales & Customer Insights Dashboard", layout="wid
 # Actually call the function so your data is available in memory
 sales = load_data()
 
-"""
-# Quick sanity check — show a small preview
-st.write("Preview of Sales Data:")
-st.dataframe(sales.head())
-"""
-
 st.title("📊 Sales & Customer Insights Dashboard")
 
 # Sidebar filters
